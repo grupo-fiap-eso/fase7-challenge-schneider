@@ -5,6 +5,6 @@ export default createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-color: #blue;
     font-size: 20px;
-    margin: 0 8px;
+    margin: 0 0px;
   }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const Welcome = () => {
+function Welcome(){
   const { t } = useTranslation();
 
   return (

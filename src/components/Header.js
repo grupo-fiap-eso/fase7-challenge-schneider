@@ -3,10 +3,13 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { HeaderStyle } from "../assets/css/style";
 import Flag from "./Flag";
-import { BrFlag, UsaFlag, EspFlag } from "../assets/img/index";
+import BrFlag from "../assets/img/br-flag.png";
+import UsaFlag from "../assets/img/usa-flag.png";
+import MxFlag from "../assets/img/mx-flag.png";
+import SchneiderLogo from "../assets/img/schneider-logo.jpeg";
 
-const Header = () => {
-  const { i18n } = useTranslation();
+function Header(){
+  const { t, i18n } = useTranslation();
  
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -15,6 +18,9 @@ const Header = () => {
   return (
     <HeaderStyle>
       <header>
+        <div className="logo-container">
+          <img src={SchneiderLogo} />
+        </div>
         <div className="flags-container">
           <Flag
             image={BrFlag}
@@ -25,7 +31,7 @@ const Header = () => {
             onClick={() => changeLanguage('en-US')}
           />
           <Flag
-            image={EspFlag}
+            image={MxFlag}
             onClick={() => changeLanguage('es-MX')}
           />
         </div>

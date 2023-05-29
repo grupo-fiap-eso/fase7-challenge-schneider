@@ -36,7 +36,7 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <header class="p-3 mb-3 border-bottom">
+     <header class="p-3 mb-3 border-bottom">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <!-- Logo -->
@@ -64,45 +64,27 @@
               </font>
             </a></li>
         </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 busca" role="search">
-          <input type="search" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar">
-          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-
-        </form>
-
+        
         <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            <i class="fa-solid fa-circle-user" style="color: aliceblue;"></i> </a>
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg>          </a>
           <ul class="dropdown-menu text-small" style="">
-            <li><a class="dropdown-item" href="#">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Novo projeto...</font>
-                </font>
-              </a></li>
-            <li><a class="dropdown-item" href="#">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Configurações</font>
-                </font>
-              </a></li>
-            <li><a class="dropdown-item" href="#">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Perfil</font>
-                </font>
-              </a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">sair</font>
-                </font>
-              </a></li>
+            <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Meu Perfil</font></font></a></li>
+            <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></a></li>
+            <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Perfil</font></font></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sair</font></font></a></li>
           </ul>
         </div>
-      </div>
-    </div>
+      <div class="busca">
+
+          <input type="text" placeholder="Buscar">
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+
+        </div>
   </header>
 
   <div class=" p-md-5 mb-4 rounded primeira-secao">
@@ -228,117 +210,140 @@
       <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
       <h2>Meio Ambiente</h2>
       <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Continue lendo...</font>
+          </font>
+        </a></p>
     </div>
 
     <div class="card green">
       <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
       <h2>Meio Ambiente</h2>
-      <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
-    </div>
-
-    <div class="card green">
-      <img class="image" src="./imagens/esg.jpg" alt="money" />
-      <h2>Meio Ambiente</h2>
-      <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
-    </div>
-
-    <div class="card green">
-      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-      <h2>Meio Ambiente</h2>
-      <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
-    </div>
-
-    <div class="card green">
-      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-      <h2>Meio Ambiente</h2>
-      <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
-    </div>
-    
-    <div class="card green">
-      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-      <h2>Meio Ambiente</h2>
-      <p class="lead mb-0"><a href="#" class="link1">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Continue lendo...</font>
-        </font>
-      </a></p>
-    </div>
-
-    
-  <div class=" p-md-5 home-sobre-nos">
-    <div class="col-md-6 px-5">
-      <h1 class="display-4 fst-italic">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Sobre o projeto</font>
-        </font>
-      </h1>
-      <p class="lead my-3">
-        <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            eveniet velit, delectus fuga molestiae provident eius inventore explicabo? Ex, ullam.</font>
-        </font>
-      </p>
       <p class="lead mb-0"><a href="#" class="link1">
           <font style="vertical-align: inherit;">
             <font style="vertical-align: inherit;">Continue lendo...</font>
           </font>
         </a></p>
     </div>
-  </div>
 
-  <div class="container text-center mb-[32px]">
-    <div class="texto-imagem__descricao">
-      <h2><strong>Veja as melhores interações </strong> <br> da Comunidade</h2>
-    </div>
-  </div>
-
-  <div class="my-3 p-3 bg-body rounded shadow-sm">
-    <h6 class="border-bottom pb-2 mb-0">Melhores comentários</h6>
-    <div class="d-flex text-body-secondary pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: 32 x 32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@nome de usuário</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-        Algum conteúdo de espaço reservado representativo, com algumas informações sobre este usuário. </font><font style="vertical-align: inherit;">Imagine que isso seja algum tipo de atualização de status, talvez?
-      </font></font></p>
+    <div class="card green">
+      <img class="image" src="./imagens/esg.jpg" alt="money" />
+      <h2>Meio Ambiente</h2>
+      <p class="lead mb-0"><a href="#" class="link1">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Continue lendo...</font>
+          </font>
+        </a></p>
     </div>
 
-    <div class="d-flex text-body-secondary pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: 32 x 32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@nome de usuário</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-        Algum conteúdo de espaço reservado mais representativo, relacionado a esse outro usuário. </font><font style="vertical-align: inherit;">Outra atualização de status, talvez.
-      </font></font></p>
+    <div class="card green">
+      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
+      <h2>Meio Ambiente</h2>
+      <p class="lead mb-0"><a href="#" class="link1">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Continue lendo...</font>
+          </font>
+        </a></p>
     </div>
-    <div class="d-flex text-body-secondary pt-3">
-      <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: 32 x 32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
-      <p class="pb-3 mb-0 small lh-sm border-bottom">
-        <strong class="d-block text-gray-dark"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@nome de usuário</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-        Esse usuário também obtém algum conteúdo de espaço reservado representativo. </font><font style="vertical-align: inherit;">Talvez eles tenham feito algo interessante e você realmente queira destacar isso nas atualizações recentes.
-      </font></font></p>
+
+    <div class="card green">
+      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
+      <h2>Meio Ambiente</h2>
+      <p class="lead mb-0"><a href="#" class="link1">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Continue lendo...</font>
+          </font>
+        </a></p>
     </div>
-    <small class="d-block text-end mt-3">
-      <a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Todas as atualizações</font></font></a>
-    </small>
+
+    <div class="card green">
+      <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
+      <h2>Meio Ambiente</h2>
+      <p class="lead mb-0"><a href="#" class="link1">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Continue lendo...</font>
+          </font>
+        </a></p>
+    </div>
+
+    <hr>
+    <div class=" p-md-5 home-sobre-nos">
+      <div class="col-md-6 px-5">
+        <h1 class="display-4 fst-italic">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Sobre o projeto</font>
+          </font>
+        </h1>
+        <p class="lead my-3">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              eveniet velit, delectus fuga molestiae provident eius inventore explicabo? Ex, ullam.</font>
+          </font>
+        </p>
+        <p class="lead mb-0"><a href="#" class="link1">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Continue lendo...</font>
+            </font>
+          </a></p>
+      </div>
+    </div>
+
+    <!-- PARTE DO FORUM -->
+
+    <div class="comunidade">
+
+      <div class="text-center titulo-comunidade">
+        <div class="">
+          <h2><strong>Veja as melhores interações </strong> <br> da Comunidade</h2>
+        </div>
+      </div>
+
+      <div class="comentarios my-3  rounded shadow-sm" <h6 class="border-bottom pb-2 mb-0">Melhores comentários</h6>
+        <div class="d-flex text-body-secondary pt-3">
+          <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
+            <rect width="100%" height="100%" fill="#e83e8c"></rect>
+          </svg>
+          <p class="pb-3 mb-0 small lh-sm border-bottom">
+            <strong class="d-block text-gray-dark">
+              @nome de usuário
+            </strong>
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">
+                Algum conteúdo de espaço reservado representativo, com algumas informações sobre este usuário.
+                Imagine que isso seja algum tipo de atualização de status, talvez?
+          </p>
+        </div>
+
+        <div class="d-flex text-body-secondary pt-3">
+          <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
+            <rect width="100%" height="100%" fill="#e83e8c"></rect>
+          </svg>
+          <p class="pb-3 mb-0 small lh-sm border-bottom">
+            <strong class="d-block text-gray-dark">@nome de usuário
+            </strong>
+            Algum conteúdo de espaço reservado mais representativo, relacionado a esse outro usuário.
+            Outra atualização de status, talvez.
+          </p>
+        </div>
+        <div class="d-flex text-body-secondary pt-3">
+          <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
+            <rect width="100%" height="100%" fill="#e83e8c"></rect>
+          </svg>
+          <p class="pb-3 mb-0 small lh-sm border-bottom">
+            <strong class="d-block text-gray-dark">@nome de usuário
+            </strong>
+            Esse usuário também obtém algum conteúdo de espaço reservado representativo.
+            destacar isso nas atualizações recentes.
+            Talvez eles tenham feito algo interessante e você realmente queira
+          </p>
+        </div>
+        <small class="d-block text-end mt-3">
+          <a href="#">
+            Entre na Comunidade
+          </a>
+        </small>
+      </div>
+    </div>
   </div>
   </body>
 </html>

@@ -173,20 +173,80 @@ button {
     display: block;
   }
 
-.comunidade{
+div .comunidade{
     margin-top: 5%;
     background-color: #dfecf84d;
+    border-radius: 20px;
+    padding-bottom: 60px;
 }
 
-.comunidade .comentarios{
+
+div .comentarios{
     width: 70%;
     padding: 20px;
     background-color: #fffffff9;
     border: 2px solid #aaabab57;
-
     margin-left: 16%;
 }
 .titulo-comunidade{
     margin: 5%;
     color: #2d2c2cef;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    background: linear-gradient(to right, #257104, #143007);
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+footer .row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+footer .logo-footer{
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+footer .col h4{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons-footer i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    color: #a3a5ae;
+    background: #fff;
+    margin-left: 10px;
 }

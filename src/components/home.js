@@ -319,13 +319,12 @@ function Home() {
                         </p>
                     </div>
                     <small class="d-block text-end mt-3">
-                        <a href="#">
+                        <a href="/Comunidade">
                             Entre na Comunidade
                         </a>
                     </small>
                 </div>
             </div>
-
         </div>
 
         <footer>

@@ -26,3 +26,23 @@ export const HeaderStyle = styled.div`
     margin: 10px 3px;
   }
 `
+
+
+export const DivEtiquetas = styled.div`
+
+  form{
+    width: 50%; padding: 1px; margin 0 auto;
+  }
+  fieldset{
+    padding: 20px;
+  }
+  legend{
+    font-size: 20px; text-align: left; padding: 0px;
+  }
+  label{
+    display: flex; flex-direction: column; margin-bottom: 10px
+  }
+  input{
+    padding: 5px 20px; border-radius: 5px; border: 100x;
+  }
+`

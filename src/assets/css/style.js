@@ -29,20 +29,35 @@ export const HeaderStyle = styled.div`
 
 
 export const DivEtiquetas = styled.div`
-
+  *{
+    background-color: #174105;gith
+    padding: 1px 20px; 
+    border-radius: 5px;
+    width: 100%;
+    float: center;
+  }
   form{
-    width: 50%; padding: 1px; margin 0 auto;
+    width: 50%; padding: 1px; margin: 0 auto;
   }
   fieldset{
     padding: 20px;
   }
   legend{
-    font-size: 20px; text-align: left; padding: 0px;
+    color: white;
+    font-size: 20px; text-align: center; padding: 0px; 
   }
   label{
+    color: white;
     display: flex; flex-direction: column; margin-bottom: 10px
   }
   input{
-    padding: 5px 20px; border-radius: 5px; border: 100x;
+    background-color: white;
+    padding: 5px 20px; border-radius: 5px; border: 100px;
+  }
+  button{
+    background: white;
+    border-radius: 2px; width: 12%; 
+    margin: 0px 45%;
+    text-align: center;
   }
 `

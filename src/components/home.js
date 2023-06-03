@@ -1,13 +1,9 @@
+import PostsResumo from "./posts/postsResumo";
+
 function Home() {
     return (
         <div>       
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#"><img src="./imagens/logo2.png" alt="" style={{ height: '35px' }} /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -169,81 +165,9 @@ function Home() {
             </div>
         </div>
 
-        <div class="row terceira-secao">
-            <h2>Últimas atualizações</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, illo. Similique quas corrupti magnam quod,
-                ea in! Laudantium, nemo nihil.</p>
-            <div class=" col botoes">
-                <button class="btn-block rounded p-2" type="button">Economia</button>
-                <button class="btn-block rounded p-2" type="button">Ambiente</button>
-                <button class="btn-block rounded p-2" type="button">Sustentabilidade</button>
-                <button class="btn-block rounded p-2" type="button">Sociedade</button>
-                <button class="btn-block rounded p-2" type="button">Economia</button>
-                <button class="btn-block rounded p-2" type="button">Meio Ambiente</button>
-            </div>
-        </div>
+        <PostsResumo />
 
         <div class="row">
-            <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
-            <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
-            <div class="card green">
-                <img class="image" src="./imagens/esg.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
-            <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
-            <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
-            <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
-                <h2>Meio Ambiente</h2>
-                <p class="lead mb-0"><a href="#" class="link1">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                    </font>
-                </a></p>
-            </div>
-
             <hr></hr>
             <div class=" p-md-5 home-sobre-nos">
                 <div class="col-md-6 px-5">

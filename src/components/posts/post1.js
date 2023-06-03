@@ -6,15 +6,26 @@ const titulo = "Conservação de energia: cuidando do planeta para as futuras ge
 const resumo = "Pequenas mudanças no nosso dia a dia, como manter aparelhos em bom estado, ajustar o uso de aquecimento e resfriamento, sensibilizar a família, gerenciar a iluminação e utilizar eletrodomésticos eficientes, contribuem para a conservação de energia e um futuro sustentável."
 const img = "../imagens/post1-img.jpeg"
 
-function Post1Card() {
-  return (
-    <PostCard
-      titulo={titulo}
-      src={img}
-      resumo={resumo}
-      id={1}
-    />
-  )
+class Post1Card extends React.Component {
+  render() {
+    return (
+      <div style={{"display": "flex", "justify-content": "space-between"}}>
+        {
+          (
+            this.props.categoriaSelecionada === 'sustentabilidade' ||
+            this.props.categoriaSelecionada === 'todas'
+          ) && (
+            <PostCard
+              titulo={titulo}
+              src={img}
+              resumo={resumo}
+              id={1}
+            />
+          )
+        }
+      </div>
+    )
+  }
 }
 
 function Post1(){

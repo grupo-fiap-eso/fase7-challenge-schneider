@@ -6,15 +6,26 @@ const titulo = "Reciclagem: uma atitude sustentável para um mundo melhor!"
 const resumo = "A reciclagem é uma poderosa ação de preservação dos recursos naturais. Ao separar corretamente os resíduos, adotar a compostagem e reduzir o desperdício, podemos contribuir para um futuro mais sustentável. Sejamos agentes de mudança e inspiremos outros a adotarem práticas de reciclagem em suas vidas."
 const img = "../imagens/post2-img.jpeg"
 
-function Post2Card() {
-  return (
-    <PostCard
-      titulo={titulo}
-      src={img}
-      resumo={resumo}
-      id={2}
-    />
-  )
+class Post2Card extends React.Component {
+  render() {
+    return (
+      <div style={{"display": "flex", "justify-content": "space-between"}}>
+        {
+          (
+            this.props.categoriaSelecionada === 'sociedade' ||
+            this.props.categoriaSelecionada === 'todas'
+          ) && (
+            <PostCard
+              titulo={titulo}
+              src={img}
+              resumo={resumo}
+              id={2}
+            />
+          )
+        }
+      </div>
+    )
+  }
 }
 
 function Post2(){

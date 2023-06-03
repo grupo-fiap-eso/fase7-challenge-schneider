@@ -6,15 +6,26 @@ const titulo = "Preservação da natureza: conectando-se com o mundo ao nosso re
 const resumo = "Valorize a natureza através do plantio de árvores, conscientização sobre a fauna e visitas a áreas naturais. Cada ação conta para um planeta mais saudável e equilibrado. Juntos, podemos fazer a diferença e garantir um futuro sustentável para as gerações vindouras."
 const img = "../imagens/post3-img.jpeg"
 
-function Post3Card() {
-  return (
-    <PostCard
-      titulo={titulo}
-      src={img}
-      resumo={resumo}
-      id={3}
-    />
-  )
+class Post3Card extends React.Component {
+  render() {
+    return (
+      <div style={{"display": "flex", "justify-content": "space-between"}}>
+        {
+          (
+            this.props.categoriaSelecionada === 'meio-ambiente' ||
+            this.props.categoriaSelecionada === 'todas'
+          ) && (
+            <PostCard
+              titulo={titulo}
+              src={img}
+              resumo={resumo}
+              id={3}
+            />
+          )
+        }
+      </div>
+    )
+  }
 }
 
 function Post3(){

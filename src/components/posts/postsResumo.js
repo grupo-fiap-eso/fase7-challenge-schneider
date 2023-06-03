@@ -1,8 +1,8 @@
-
-import React from "react";
+import React, { useState } from 'react';
 import { Post1Card } from "./post1";
 import { Post2Card } from "./post2";
 import { Post3Card } from "./post3";
+import { Post4Card } from "./post4";
 
 const buttonStyle = {
   margin: "0 5px",
@@ -10,6 +10,12 @@ const buttonStyle = {
 }
 
 function PostsResumo(){
+  const [categoria, setCatogoria] = useState('todas');
+
+  const selecionarCategoria = (categoria) => {
+    setCatogoria(categoria);
+  };
+
   return (
     <div class="row">
       <div class="row terceira-secao">
@@ -24,12 +30,11 @@ function PostsResumo(){
             "justify-content": "center",
             "align-content": "center"
           }}>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Economia</button>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Ambiente</button>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Sustentabilidade</button>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Sociedade</button>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Economia</button>
-            <button class="btn-block rounded p-2" type="button" style={buttonStyle}>Meio Ambiente</button>
+            <button class="btn-block rounded p-2" type="button" style={buttonStyle} onClick={() => selecionarCategoria('economia')}>Economia</button>
+            <button class="btn-block rounded p-2" type="button" style={buttonStyle} onClick={() => selecionarCategoria('sustentabilidade')}>Sustentabilidade</button>
+            <button class="btn-block rounded p-2" type="button" style={buttonStyle} onClick={() => selecionarCategoria('sociedade')}>Sociedade</button>
+            <button class="btn-block rounded p-2" type="button" style={buttonStyle} onClick={() => selecionarCategoria('meio-ambiente')}>Meio Ambiente</button>
+            <button class="btn-block rounded p-2" type="button" style={buttonStyle} onClick={() => selecionarCategoria('todas')}>Todas</button>
           </div>
       </div>
       <div style={{
@@ -38,9 +43,10 @@ function PostsResumo(){
         "flex-direction": "row",
         "justify-content": "center"
       }}>
-        <Post1Card />
-        <Post2Card />
-        <Post3Card />
+        <Post1Card categoriaSelecionada={categoria}/>
+        <Post2Card categoriaSelecionada={categoria}/>
+        <Post3Card categoriaSelecionada={categoria}/>
+        <Post4Card categoriaSelecionada={categoria}/>
       </div>
 
     </div>

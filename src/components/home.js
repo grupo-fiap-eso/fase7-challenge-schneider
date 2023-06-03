@@ -201,45 +201,47 @@ function Home() {
                 </div>
 
                 <div class="comentarios my-3  rounded shadow-sm"> <h6 class="border-bottom pb-2 mb-0"> Melhores comentários</h6>
-                    <div class="d-flex text-body-secondary pt-3">
+                <div class="d-flex text-body-secondary pt-3">
                         <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
-                            <rect width="100%" height="100%" fill="#e83e8c"></rect>
+                            <rect width="100%" height="100%" fill="#0000ff"></rect>
                         </svg>
                         <p class="pb-3 mb-0 small lh-sm border-bottom">
-                            <strong class="d-block text-gray-dark">
-                                @nome de usuário
+                            <strong class="d-block text-gray-dark">@guilherme.quirino
                             </strong>
-
-                            <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>
-                                    Algum conteúdo de espaço reservado representativo, com algumas informações sobre este usuário.
-                                    Imagine que isso seja algum tipo de atualização de status, talvez?
-                                </font>
-                            </font>
+                            Pequenas mudanças no nosso dia a dia podem fazer uma grande diferença ambiental. 💚🌱 #Sustentabilidade #MudançaPositiva
                         </p>
                     </div>
-
+                    
                     <div class="d-flex text-body-secondary pt-3">
                         <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
                             <rect width="100%" height="100%" fill="#e83e8c"></rect>
                         </svg>
                         <p class="pb-3 mb-0 small lh-sm border-bottom">
-                            <strong class="d-block text-gray-dark">@nome de usuário
+                            <strong class="d-block text-gray-dark">@ayla.carolina
                             </strong>
-                            Algum conteúdo de espaço reservado mais representativo, relacionado a esse outro usuário.
-                            Outra atualização de status, talvez.
+                            Recicle, reutilize, repense. Cuidar do meio ambiente é uma responsabilidade de todos nós! 🌎♻️ #Sustentabilidade #Preservação
                         </p>
                     </div>
+                    
                     <div class="d-flex text-body-secondary pt-3">
                         <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
-                            <rect width="100%" height="100%" fill="#e83e8c"></rect>
+                            <rect width="100%" height="100%" fill="#0000ff"></rect>
                         </svg>
                         <p class="pb-3 mb-0 small lh-sm border-bottom">
-                            <strong class="d-block text-gray-dark">@nome de usuário
+                            <strong class="d-block text-gray-dark">@gabriel.clemente
                             </strong>
-                            Esse usuário também obtém algum conteúdo de espaço reservado representativo.
-                            destacar isso nas atualizações recentes.
-                            Talvez eles tenham feito algo interessante e você realmente queira
+                            Economize energia, plante árvores, seja parte da solução. Juntos, podemos construir um mundo sustentável. 🌿💡 #Sustentabilidade #FuturoVerde
+                        </p>
+                    </div>
+                    
+                    <div class="d-flex text-body-secondary pt-3">
+                        <svg class="bd-placeholder-img me-2  rounded" width="32" height="32">
+                            <rect width="100%" height="100%" fill="#0000ff"></rect>
+                        </svg>
+                        <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">@thiago.motta
+                            </strong>
+                            A sustentabilidade não é uma opção, é uma necessidade. Vamos proteger o nosso lar! 🌍💚 #Sustentabilidade #PlanetaSaudável"
                         </p>
                     </div>
                     <small class="d-block text-end mt-3">

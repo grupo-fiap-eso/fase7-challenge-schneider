@@ -38,7 +38,7 @@ function Comunidade() {
                 <h2>Trocas inteligentes</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Por Ayla Carolina...</font>
+                        <font style={{ verticalAlign: 'inherit' }}>Maximizando o Valor dos Negócios com Responsabilidade Ambiental. Utilize tecnologias avançadas e práticas inovadoras para promover trocas comerciais sustentáveis, impulsionando o crescimento econômico e a preservação do meio ambiente. Descubra como as trocas inteligentes estão impulsionando um futuro mais sustentável para todos.</font>
                     </font>
                 </a></p>
             </div>
@@ -48,7 +48,7 @@ function Comunidade() {
                 <h2>Smart Grid</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Por Guilherme Quirino...</font>
+                        <font style={{ verticalAlign: 'inherit' }}>A revolução da energia inteligente para um futuro sustentável. Integração de fontes renováveis, monitoramento em tempo real e eficiência energética para uma rede elétrica avançada e conectada. Descubra como a Smart Grid está transformando o setor energético e promovendo uma sociedade mais sustentável.</font>
                     </font>
                 </a></p>
             </div>
@@ -58,7 +58,7 @@ function Comunidade() {
                 <h2>Edge Control</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Por Thiago Motta...</font>
+                        <font style={{ verticalAlign: 'inherit' }}>Potencializando a Eficiência Energética e a Preservação Ambiental. Utilize tecnologias avançadas de edge computing para otimizar o processamento de dados em tempo real, reduzindo o consumo energético e contribuindo para um futuro mais sustentável. Descubra como o Edge Control está impulsionando a transformação digital responsável.</font>
                     </font>
                 </a></p>
             </div>
@@ -155,7 +155,7 @@ function Comunidade() {
                                 onChange={cadCliente}/>
                             </label>
                             <label> E-mail
-                                <input type='text' name='email' value={cliente.email} 
+                                <input type='email' name='email' value={cliente.email} 
                                 onChange={cadCliente}/>
                             </label>
                             <label> Comentário

@@ -5,6 +5,7 @@ import Menu from "./components/menu"
 import Cadastro from './components/cadastro'
 import Comunidade from './components/comunidade'
 import PostPage from './components/postPage'
+import Calendario from './components/calendario'
 
 function App(){
   return(
@@ -13,8 +14,9 @@ function App(){
         <Route path="/" element={<Login/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
         <Route path="/home" element={[<Menu/>, <Home/>]}/>
-        <Route path="/comunidade" element={<Comunidade/>}/>
+        <Route path="/comunidade" element={[<Menu/>,<Comunidade/>]}/>
         <Route path="/posts/:id" element={[<Menu/>, <PostPage/>]}/>
+        <Route path="/calendario" element={[<Menu/>, <Calendario/>]}/>
       </Routes>
     </BrowserRouter>
   )

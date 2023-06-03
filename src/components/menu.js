@@ -23,7 +23,9 @@ function Menu() {
             </button>
             <ul style={{ display: 'flex', listStyle: 'none' }}>
                 <li><Link style={link} to='/home'>Home</Link></li>
-                <li><Link style={link} to='/'>Login</Link></li>
+                <li><Link style={link} to='/comunidade'>Comunidade</Link></li>
+                <li><Link style={link} to='/calendario'>Calendário Ambiental</Link></li>
+                <li><Link style={link} to='/'>Sair</Link></li>
 
             </ul>
         </nav>

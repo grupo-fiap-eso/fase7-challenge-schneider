@@ -1,10 +1,11 @@
 import React from "react";
-import PostCard from "./postCard";
-import { PostStyle } from "../../assets/css/style";
+import PostCard from "./PostCard";
+import { PostStyle } from "../../styled";
+import PostImg from "../../images/post3-img.jpeg"
 
 const titulo = "Preservação da natureza: conectando-se com o mundo ao nosso redor!"
 const resumo = "Valorize a natureza através do plantio de árvores, conscientização sobre a fauna e visitas a áreas naturais. Cada ação conta para um planeta mais saudável e equilibrado. Juntos, podemos fazer a diferença e garantir um futuro sustentável para as gerações vindouras."
-const img = "../imagens/post3-img.jpeg"
+const img = PostImg
 
 class Post3Card extends React.Component {
   render() {

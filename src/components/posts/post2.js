@@ -1,10 +1,11 @@
 import React from "react";
-import PostCard from "./postCard";
-import { PostStyle } from "../../assets/css/style";
+import PostCard from "./PostCard";
+import { PostStyle } from "../../styled";
+import PostImg from "../../images/post2-img.jpeg"
 
 const titulo = "Reciclagem: uma atitude sustentável para um mundo melhor!"
 const resumo = "A reciclagem é uma poderosa ação de preservação dos recursos naturais. Ao separar corretamente os resíduos, adotar a compostagem e reduzir o desperdício, podemos contribuir para um futuro mais sustentável. Sejamos agentes de mudança e inspiremos outros a adotarem práticas de reciclagem em suas vidas."
-const img = "../imagens/post2-img.jpeg"
+const img = PostImg
 
 class Post2Card extends React.Component {
   render() {

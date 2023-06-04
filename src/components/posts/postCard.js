@@ -6,9 +6,9 @@ class PostCard extends React.Component {
         <div class="card green">
           <img class="image" src={this.props.src} alt="postimg" />
           <p style={{
-            "font-size": "23px",
-            "font-weight": "900",
-            "color": "#424141"
+            fontSize: "23px",
+            fontWeight: "900",
+            color: "#424141"
           }}>{this.props.titulo}</p>
           <p>
             <font style={{ verticalAlign: 'inherit' }}>{this.props.resumo}</font>

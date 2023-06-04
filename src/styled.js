@@ -1,35 +1,8 @@
 import styled from 'styled-components'
 
-export const HeaderStyle = styled.div`
-  header {
-    width: 100%;
-    color: white;
-    min-height: 50px;
-    background-color: #f3f2f2;
-  }
-  .logo-container{
-    float: left;
-    padding: 5px;
-  }
-  .logo-container img {
-    height: 35px;
-  }
-
-  .flags-container {
-    float: right;
-    margin-right: 15px;
-  }
-
-  .flag {
-    width: 30px;
-    height: 30px;
-    margin: 10px 3px;
-  }
-`
-
 export const DivEtiquetas = styled.div`
   *{
-    background-color: #174105;gith
+    background-color: #174105;
     padding: 1px 20px; 
     border-radius: 5px;
     width: 100%;
@@ -92,5 +65,70 @@ export const PostStyle = styled.div`
       text-align: justify;
       margin: 15px auto 0px;
     }
+  }
+`
+export const LoginStyle = styled.div`
+  .login{
+    weight: 70px;
+    height: 320px;
+    width: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgba(35,196,83, 0.8);
+    justify-content: right;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    margin-top: 50vh;
+    display: flex;
+    margin-left: 100vh;
+    border: solid 2px white;
+  }
+  .logo-scheneider{
+    position: relative;
+    width: 350px;
+    height: 180px;
+    padding-right: 80px;
+    padding-top: 110px;
+  }
+  .bottom{
+    backround: #21c650;
+    border-color: white;
+    border-width: 3px;
+    padding-bottom: 3px;
+  }
+  .videos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+  }
+`
+
+export const CadastroStyle = styled.div`
+  .geral{
+    background: rgba(35,196,83);
+    color: white;
+  }
+  .logo-scheneider{
+    width: 350px;
+    height: 80px;
+    float: right !important;
+  }
+`
+
+export const CalendarioStyle = styled.div`
+  .geral{
+    font-size: 5px;
+    display: inline-block;
+  }
+
+  .geral-semana{
+    font-size: 5px;
+    display: inline-block;
+    background-color: #8FBC8F;
+    color: white;
   }
 `

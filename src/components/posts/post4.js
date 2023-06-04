@@ -1,10 +1,11 @@
 import React from "react";
-import PostCard from "./postCard";
-import { PostStyle } from "../../assets/css/style";
+import PostCard from "./PostCard";
+import { PostStyle } from "../../styled";
+import PostImg from "../../images/post4-img.jpeg"
 
 const titulo = "Energia limpa: um futuro sustentável está em nossas mãos!"
 const resumo = "Descubra como utilizar a eletricidade de forma consciente e sustentável. Adote fontes de energia renovável, desligue os aparelhos quando não estiverem em uso, troque as lâmpadas por versões mais eficientes e aproveite a luz natural. Contribua para um futuro energético e ambientalmente responsável."
-const img = "../imagens/post4-img.jpeg"
+const img = PostImg
 
 class Post4Card extends React.Component {
   render() {

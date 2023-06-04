@@ -1,10 +1,11 @@
 import React from "react";
-import PostCard from "./postCard";
-import { PostStyle } from "../../assets/css/style";
+import PostCard from "./PostCard";
+import { PostStyle } from "../../styled";
+import PostImg from "../../images/post1-img.jpeg"
 
 const titulo = "Conservação de energia: cuidando do planeta para as futuras gerações!"
 const resumo = "Pequenas mudanças no nosso dia a dia, como manter aparelhos em bom estado, ajustar o uso de aquecimento e resfriamento, sensibilizar a família, gerenciar a iluminação e utilizar eletrodomésticos eficientes, contribuem para a conservação de energia e um futuro sustentável."
-const img = "../imagens/post1-img.jpeg"
+const img = PostImg
 
 class Post1Card extends React.Component {
   render() {

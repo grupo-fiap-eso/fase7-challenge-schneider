@@ -1,5 +1,10 @@
 import { useState } from 'react'
-import {DivEtiquetas} from '../assets/css/style'
+import { DivEtiquetas } from '../styled'
+import Logo from "../images/logo2.png"
+import EsgImage from "../images/esg.jpg"
+import TectonologiaSustentavelImage from "../images/img-tecnologia-na-sustentabilidade.jpg"
+import SmartgridImage from "../images/smartgrid.jpeg"
+
 function Comunidade() { 
     
     const [cliente, setCliente] = useState({
@@ -34,7 +39,7 @@ function Comunidade() {
 
         <div class="row">
             <div class="card green">
-                <img class="image" src="./imagens/img-tecnologia-na-sustentabilidade.jpg" alt="money" />
+                <img class="image" src={TectonologiaSustentavelImage} alt="money" />
                 <h2>Trocas inteligentes</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
@@ -44,7 +49,7 @@ function Comunidade() {
             </div>
 
             <div class="card green">
-                <img class="image" src="./imagens/smartgrid.jpeg" alt="money" />
+                <img class="image" src={SmartgridImage} alt="money" />
                 <h2>Smart Grid</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
@@ -54,7 +59,7 @@ function Comunidade() {
             </div>
 
             <div class="card green">
-                <img class="image" src="./imagens/esg.jpg" alt="money" />
+                <img class="image" src={EsgImage} alt="money" />
                 <h2>Edge Control</h2>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
@@ -218,7 +223,7 @@ function Comunidade() {
         <footer>
             <div class="row">
                 <div class="col">
-                    <img src="./imagens/logo2.png" alt="logo" class="logo-footer" />
+                    <img src={Logo} alt="logo" class="logo-footer" />
                     <div class="icons-footer">
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-twitter"></i>

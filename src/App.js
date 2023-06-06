@@ -1,11 +1,11 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Login from "./components/login"
-import Home from "./components/home"
-import Menu from "./components/menu"
-import Cadastro from './components/cadastro'
-import Comunidade from './components/comunidade'
+import Login from "./components/Login"
+import Home from "./components/Home"
+import Menu from "./components/Menu"
+import Cadastro from './components/Cadastro'
+import Comunidade from './components/Comunidade'
 import PostPage from './components/PostPage'
-import Calendario from './components/calendario'
+import Calendario from './components/Calendario'
 
 function App(){
   return(

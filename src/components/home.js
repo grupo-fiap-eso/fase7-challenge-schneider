@@ -1,66 +1,9 @@
-import PostsResumo from "./posts/postsResumo";
+import PostsResumo from "./posts/PostsResumo";
+import Logo from "../images/logo2.png"
 
 function Home() {
     return (
-        <div>       
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Comunidade</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Desafios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="d-block icone text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                                class="bi bi-person-circle" viewBox="0 0 16 16">
-                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                <path fill-rule="evenodd"
-                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
-                            <hr class="dropdown-divider">
-                            </hr>
-
-                            <li><a class="dropdown-item" href="#"><img src="../src/assets/img/br-flag.png" alt="br"
-                                style={{ width: '20px', height: '20px' }} />
-                                <font style={{ padding: '4px' }}>Português</font>
-                            </a></li>
-                            <li><a class="dropdown-item" href="#"><img src="../src/assets/img/esp-flag.png" alt="usa"
-                                style={{ width: '20px', height: '20px' }} />
-                                <font style={{ padding: '4px' }}>Espanhol</font>
-                            </a></li>
-                            <li><a class="dropdown-item" href="#"><img src="../src/assets/img/usa-flag.png" alt="usa"
-                                style={{ width: '20px', height: '20px' }} />
-                                <font style={{ padding: '4px' }}>Inglês</font>
-                            </a></li>
-
-                        </ul>
-                    </li>
-                </ul>
-                <div class="busca d-flex">
-
-                    <input type="search" placeholder="Pesquisar..." aria-label="Search"></input>
-                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-
-                </div>
-            </div>
-        </div>
-
+        <div>
         <div class=" p-md-5 mb-4 rounded primeira-secao">
             <div class="col-md-6 px-5">
                 <h1 class="display-4 fst-italic">
@@ -256,7 +199,7 @@ function Home() {
         <footer>
             <div class="row">
                 <div class="col">
-                    <img src="./imagens/logo2.png" alt="logo" class="logo-footer" />
+                    <img src={Logo} alt="logo" class="logo-footer" />
                     <div class="icons-footer">
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-twitter"></i>

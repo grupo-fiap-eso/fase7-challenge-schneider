@@ -1,12 +1,7 @@
 import { Link } from 'react-router-dom'
-import Logo from "../components/img/logo2.png"
+import Logo from "../images/logo2.png"
 
 function Menu() {
-    const menu = {
-        background: 'rgba(35,196,83)',
-        height: '15vh',
-        display: 'flex',
-    }
     const link = {
         display: 'inlineBlock',
         textDecoration: 'none',
@@ -15,19 +10,27 @@ function Menu() {
         fontSize: '1.5em'
     }
     return (
-        <nav style={menu}>
-            <a class="navbar-brand logo" href="#"><img src={Logo} alt="" style={{ height: '35px' }} /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src={Logo} alt="" style={{ height: '35px' }} /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <ul style={{ display: 'flex', listStyle: 'none' }}>
-                <li><Link style={link} to='/home'>Home</Link></li>
-                <li><Link style={link} to='/comunidade'>Comunidade</Link></li>
-                <li><Link style={link} to='/calendario'>Calendário Ambiental</Link></li>
-                <li><Link style={link} to='/'>Sair</Link></li>
-
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <Link style={link} to='/home'>Home</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link style={link} to='/comunidade'>Comunidade</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link style={link} to='/calendario'>Calendário Ambiental</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link style={link} to='/'>Sair</Link>
+                    </li>
+                </ul>
+            </div>
         </nav>
     )
 }

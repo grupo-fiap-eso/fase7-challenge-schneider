@@ -1,50 +1,34 @@
+import { createGlobalStyle } from "styled-components";
 
-@import url('https://fonts.googleapis.com/css2? family= Lora:ital,wght@0,400;0,500;1,400 & family= Playfair:wght@300;500 & display=swap');
-
-
-*{
+const globalStyle = createGlobalStyle`
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lora', serif;
-/*ou Playfair*/
-}
+  }
 
-body{
+  body{
     background-color: #3b8d1814;
-}
-nav{
-    top: 10px;
-    left: 15px;
-    width: 98%;
-    height: 65px;
-    border-radius: 10px ;
+  }
+  nav{
+    min-height: 65px;
     align-items: center;
     padding: 15px 100px;
-    
-}
+    font-size: 12px;
+  }
 
-.navbar{
+  .navbar{
     background-color: #3b8d18 
-}
+  }
 
-.navbar .navbar-nav .nav-item a{
-    padding: 15px;
-
-}
-
-.navbar .navbar-nav .nav-but{
-    padding: 10px;
-
-}
-
-nav .busca{
+  nav .busca{
     position: relative;
     width: 200px;
     height: 30px;
-}
+  }
 
-nav .busca input{
+  nav .busca input{
     position: absolute;
     top: 0;
     left: 0;
@@ -56,15 +40,15 @@ nav .busca input{
     border: 1px solid #ffffffbb;
     border-radius: 5px;
     padding: 0 10px 0 35px;
-}
+  }
 
-nav .busca input::placeholder{
+  nav .busca input::placeholder{
     color: #fff;
     padding: 6px;
 
-}
+  }
 
-nav .busca .fa-sharp{
+  nav .busca .fa-sharp{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -72,71 +56,70 @@ nav .busca .fa-sharp{
     color: #fff;
     border-right: 1px solid #fff;
     padding-right: 10px;
-}
+  }
 
-.nav-item .icone{
+  .nav-item .icone{
     color: #ffffffc5;
-}
+  }
 
-
-.primeira-secao{
+  .primeira-secao{
     margin-top: 11%;
     margin-inline: 4em;
     background-color: #3b8d184d;
     box-sizing: border-box;
     display: block;
-}
+  }
 
-
-.p-md-5{
+  .p-md-5{
     padding: 3rem;
+  }
 
-}
-
-.rounded{
+  .rounded{
     border-radius: 20px;
-}
-.p-4{
-    padding: 1.5rem;
-}
-.mb-4{
-    margin-bottom: 1.5rem;
-}
+  }
 
-.link1{
+  .p-4{
+    padding: 1.5rem;
+  }
+  .mb-4{
+    margin-bottom: 1.5rem;
+  }
+
+  .link1{
     text-decoration: none;
     color: #183909;
     font-weight:400;
-}
+  }
 
-.segunda-secao{
+  .segunda-secao{
     margin-top: 100px;
     margin-inline: 3em;
     box-sizing: border-box;
-}
-.terceira-secao{
+  }
+
+  .terceira-secao{
     margin-top: 90px;
     margin-inline: 3em;
-}
+  }
 
-button {
+  button {
     padding: 7px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
 
-}
-
-.home-artigos{
+  .home-artigos{
     padding: 0;
     position: relative;
-}
+  }
 
-.row {
+  .row {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .card {
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
@@ -173,27 +156,27 @@ button {
     display: block;
   }
 
-div .comunidade{
+  div .comunidade{
     margin-top: 5%;
     background-color: #dfecf84d;
     border-radius: 20px;
     padding-bottom: 60px;
-}
+  }
 
 
-div .comentarios{
+  div .comentarios{
     width: 70%;
     padding: 20px;
     background-color: #fffffff9;
     border: 2px solid #aaabab57;
     margin-left: 16%;
-}
-.titulo-comunidade{
+  }
+  .titulo-comunidade{
     margin: 5%;
     color: #2d2c2cef;
-}
+  }
 
-footer{
+  footer{
     width: 100%;
     bottom: 0;
     position: relative;
@@ -202,44 +185,44 @@ footer{
     padding: 100px 0 30px;
     font-size: 13px;
     line-height: 20px;
-}
+  }
 
-footer .row{
+  footer .row{
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
-}
+  }
 
-footer .col{
+  footer .col{
     flex-basis: 25%;
     padding: 10px;
-}
+  }
 
-footer .logo-footer{
+  footer .logo-footer{
     width: 40%;
     margin-bottom: 30px;
-}
+  }
 
-footer .col h4{
+  footer .col h4{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
-}
+  }
 
-footer ul li{
+  footer ul li{
     list-style: none;
     margin-bottom: 12px;
-}
+  }
 
-footer ul li a{
+  footer ul li a{
     text-decoration: none;
     color: #fff;
-}
+  }
 
-.icons-footer i{
+  .icons-footer i{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -249,4 +232,6 @@ footer ul li a{
     color: #a3a5ae;
     background: #fff;
     margin-left: 10px;
-}
+  }
+`
+export default globalStyle

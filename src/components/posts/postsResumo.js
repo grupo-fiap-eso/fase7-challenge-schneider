@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Post1Card } from "./post1";
-import { Post2Card } from "./post2";
-import { Post3Card } from "./post3";
-import { Post4Card } from "./post4";
+import { Post1Card } from "./Post1";
+import { Post2Card } from "./Post2";
+import { Post3Card } from "./Post3";
+import { Post4Card } from "./Post4";
 
 const buttonStyle = {
   margin: "0 5px",

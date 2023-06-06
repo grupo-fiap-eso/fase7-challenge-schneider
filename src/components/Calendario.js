@@ -1,4 +1,10 @@
 import { CalendarioStyle } from '../styled'
+import Logo from '../images/logo2.png'
+
+const Links = {
+    textDecoration: 'none',
+    color: '#fff'
+}
 
 function Calendario() {
     return(
@@ -397,6 +403,38 @@ function Calendario() {
                     </div>
                     <h5>Dia Mundial da Biodiversidade</h5>
                 </div>
+<footer>
+                <div class="row ">
+                    <div class="col ">
+                        <img src={Logo} alt="logo" class="logo-footer" />
+                        <div class="icons-footer">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="col" >
+                        <h4><a href="/home" style={Links}>Home</a></h4>
+                        <ul>
+                            <li><a href="/comunidade">Comunidade</a></li>
+                            <li><a href="/calendario">Calendário Ambiental</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h4><a>Cadastro</a></h4>
+                        <ul>
+                            <li><a href="/">Sair</a></li>
+                            <li><a href="/cadastro">Cadastrar</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </footer>
             </div>
         </CalendarioStyle>
     )

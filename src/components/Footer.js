@@ -25,6 +25,7 @@ function Footer() {
             <li><a href="/trocas_inteligentes">Trocas Inteligentes</a></li>
             <li><a href="/desafios">Desafio do Mês</a></li>
             <li><a href="/calendario">Calendario Ambiental</a></li>
+            <li><a href="/jogos">Jogos</a></li>
           </ul>
         </div>
         <div className="col">

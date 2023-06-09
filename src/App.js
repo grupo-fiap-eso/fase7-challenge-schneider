@@ -8,6 +8,7 @@ import PostPage from './components/PostPage'
 import Calendario from './components/Calendario'
 import TrocasInteligentes from './components/TrocasInteligentes'
 import Desafios from './components/DesafiosMes'
+import SobreoProjeto from './components/SobreoProjeto'
 import Footer from './components/Footer'
 
 function App(){
@@ -21,7 +22,8 @@ function App(){
         <Route path="/posts/:id" element={[<Menu/>, <PostPage/>, <Footer/>]}/>
         <Route path="/trocas_inteligentes" element={[<Menu/>, <TrocasInteligentes/>, <Footer/>]}/>
         <Route path="/desafios" element={[<Menu/>, <Desafios/>, <Footer/>]}/>
-        <Route path="/calendario" element={[<Menu/>, <Calendario/>, <Footer/>]}/>    
+        <Route path="/calendario" element={[<Menu/>, <Calendario/>, <Footer/>]}/>
+        <Route path="/sobre" element={[<Menu/>, <SobreoProjeto/>, <Footer/>]}/>
       </Routes>
     </BrowserRouter>
   )

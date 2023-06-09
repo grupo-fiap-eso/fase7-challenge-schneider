@@ -149,6 +149,10 @@ const globalStyle = createGlobalStyle`
     border-left: 3px solid #3bb54a;
   }
 
+  .red {
+    border-left: 3px solid rgb(201 33 33);
+  }
+
   .home-sobre-nos{
     margin-top: 8%;
     margin-inline: 4em;

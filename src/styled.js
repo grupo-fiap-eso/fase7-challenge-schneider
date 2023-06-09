@@ -66,6 +66,35 @@ export const PostStyle = styled.div`
       margin: 15px auto 0px;
     }
   }
+  .troca-inteligente-row {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .troca-inteligente-row img.arrow{
+    width: 250px;
+    height: 185px;
+    margin: auto;
+  }
+  .troca-inteligente-row .card-title {
+    margin-top: 0 !important;
+    height: 100%;
+    max-height: 95px;
+    padding: 5px;
+  }
+
+  .troca-inteligente-row .card-title h2 {
+    margin: 0px  !important;
+  }
+
+  .troca-inteligente-row img.troca{
+    margin:auto;
+    width: 100%;
+  }
+  iframe.video-trocas {
+    height: 480px;
+  }
 `
 export const LoginStyle = styled.div`
   .login{

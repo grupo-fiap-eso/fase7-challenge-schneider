@@ -125,7 +125,7 @@ function SobreoProjeto() {
         <div class="row post-content">
 
           <h4>Proposta</h4>
-          <p>Para o desenvolvimento deste projeto, foram aplicados diversos recursos do curso até o momento atual do curso. Ao longo das disciplinas e conteúdos estudados, foram utilizados conhecimentos e habilidades específicas para a criação das diferentes partes do projeto.
+          <p>Para o desenvolvimento deste projeto, foram aplicados diversos recursos do curso até o momento atual do curso. Ao longo das disciplinas e conteúdos estudados, foram utilizados conhecimentos e habilidades específicas para a criação das diferentes partes do projeto.</p>
 
             <p>Na disciplina de Front-end, aprendemos a desenvolver estilização CSS para recursos de nossa página. Essa habilidade foi fundamental para estabelecer a identidade visual e UX design de nosso projeto, além disso, utilizamos formulários para captar comentários de nossos usuários, com o envio de dados necessários para o funcionamento adequado do projeto.</p>
 
@@ -149,11 +149,8 @@ function SobreoProjeto() {
 
             <li>Calendário Ambiental: Uma página que apresenta datas importantes relacionadas ao meio ambiente, como datas comemorativas e eventos relevantes, visando conscientizar os usuários sobre a importância da preservação ambiental.</li>
 
-            Dessa forma, o projeto integra diversos recursos aprendidos ao longo do curso, abrangendo desde a utilização de tecnologias específicas até a aplicação de conceitos de UX e sustentabilidade, com o objetivo de criar uma plataforma que promova a conscientização e ações em prol de um mundo mais sustentável.</p>
-          <h4>Ferramentas utilizadas</h4>
-          <p>testetestetestetestetestetestetestetesteteste
-            testetestetestetestetestetestetestetestetesteteste
-            testetestetestetestetestetestetestetestetestetesteteste </p>
+            <p>Dessa forma, o projeto integra diversos recursos aprendidos ao longo do curso, abrangendo desde a utilização de tecnologias específicas até a aplicação de conceitos de UX e sustentabilidade, com o objetivo de criar uma plataforma que promova a conscientização e ações em prol de um mundo mais sustentável.</p>
+  
         </div>
       </PostStyle>
     </div>

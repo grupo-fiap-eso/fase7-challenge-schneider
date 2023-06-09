@@ -31,7 +31,7 @@ function Desafios() {
           </p>
         </div>
         <div className="row post-content">
-          <p>Registre seu progresso na planilha e no formuálio abaixo.</p>
+        <p style={{textAlign: "center"}}>Registre seu progresso na planilha e no formulário abaixo.</p>
           <a href='https://www.canva.com/design/DAFlTOq0DCs/view' target="_blank"> Baixe o Desafio aqui</a>
           <div style={{
             position: 'relative', width: '100%', height: '0', paddingTop: '141.4286%',

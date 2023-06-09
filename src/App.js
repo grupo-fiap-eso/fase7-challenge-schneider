@@ -8,6 +8,7 @@ import PostPage from './components/PostPage'
 import Calendario from './components/Calendario'
 import TrocasInteligentes from './components/TrocasInteligentes'
 import Desafios from './components/DesafiosMes'
+import SobreoProjeto from './components/SobreoProjeto'
 
 function App(){
   return(
@@ -21,6 +22,7 @@ function App(){
         <Route path="/trocas_inteligentes" element={[<Menu/>, <TrocasInteligentes/>]}/>
         <Route path="/desafios" element={[<Menu/>, <Desafios/>]}/>
         <Route path="/calendario" element={[<Menu/>, <Calendario/>]}/>    
+        <Route path="/sobre" element={[<Menu/>, <SobreoProjeto/>]}/>
       </Routes>
     </BrowserRouter>
   )

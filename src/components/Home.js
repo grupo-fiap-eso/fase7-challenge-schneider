@@ -1,12 +1,6 @@
 import PostsResumo from "./posts/PostsResumo";
 import ImgCalendario from "../images/imgHome.jpg"
 import SemanaMB from "../images/semanaMB.png"
-import Logo from "../images/logo2.png"
-
-const links = {
-    textDecoration: 'none',
-    color: '#fff'
-}
 
 function Home() {
     return (
@@ -174,40 +168,6 @@ function Home() {
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="row">
-                <div class="col">
-                    <img src={Logo} alt="logo" class="logo-footer" />
-                    <div class="icons-footer">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-solid fa-envelope"></i>
-
-                    </div>
-
-                </div>
-                <div class="col">
-                <h4><a href="/home" style={links}>Home</a></h4>
-                        <ul>
-                            <li><a href="/comunidade">Comunidade</a></li>
-                            <li><a href="/calendario">Calendário Ambiental</a></li>
-                        </ul>
-
-                    </div>
-                    <div class="col">
-                        <h4><a>Cadastro</a></h4>
-                        <ul>
-                            <li><a href="/">Sair</a></li>
-                            <li><a href="/cadastro">Cadastrar</a></li>
-                        </ul>
-
-                    </div>
-
-            </div>
-        </footer>
-    
 </div>
     )
   }

@@ -8,6 +8,7 @@ import PostPage from './components/PostPage'
 import Calendario from './components/Calendario'
 import TrocasInteligentes from './components/TrocasInteligentes'
 import Desafios from './components/DesafiosMes'
+import Footer from './components/Footer'
 
 function App(){
   return(
@@ -15,12 +16,12 @@ function App(){
       <Routes>
         <Route path="/" element={<Login/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
-        <Route path="/home" element={[<Menu/>, <Home/>]}/>
-        <Route path="/comunidade" element={[<Menu/>,<Comunidade/>]}/>
-        <Route path="/posts/:id" element={[<Menu/>, <PostPage/>]}/>
-        <Route path="/trocas_inteligentes" element={[<Menu/>, <TrocasInteligentes/>]}/>
-        <Route path="/desafios" element={[<Menu/>, <Desafios/>]}/>
-        <Route path="/calendario" element={[<Menu/>, <Calendario/>]}/>    
+        <Route path="/home" element={[<Menu/>, <Home/>, <Footer/>]}/>
+        <Route path="/comunidade" element={[<Menu/>,<Comunidade/>, <Footer/>]}/>
+        <Route path="/posts/:id" element={[<Menu/>, <PostPage/>, <Footer/>]}/>
+        <Route path="/trocas_inteligentes" element={[<Menu/>, <TrocasInteligentes/>, <Footer/>]}/>
+        <Route path="/desafios" element={[<Menu/>, <Desafios/>, <Footer/>]}/>
+        <Route path="/calendario" element={[<Menu/>, <Calendario/>, <Footer/>]}/>    
       </Routes>
     </BrowserRouter>
   )

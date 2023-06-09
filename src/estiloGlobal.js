@@ -214,7 +214,7 @@ const globalStyle = createGlobalStyle`
     position: relative;
     background: linear-gradient(to right, #1d5207, #091b01);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 20px 0;
     font-size: 13px;
     line-height: 20px;
   }

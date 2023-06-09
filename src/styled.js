@@ -255,15 +255,14 @@ export const CarouselStyle = styled.div`
 
 
   .slider{
-    margin: 0 auto;
-    width: 75%;
+    width: 995px;
     height: 400px;
     overflow: hidden;
     height: 450px;
   }
 
   .slider h4{
-    padding-top: 20px;
+    padding-top: 25px;
     font-size: 20px;
     color: #57532A;
   }
@@ -292,14 +291,21 @@ export const CarouselStyle = styled.div`
     display: none;
   }
 
+  .card.slide.first{
+    margin-left: 0;
+  }
+
+  .card.slide{
+    margin: 10px;
+  }
+
   .slide{
     width 37vh;
     position: relative;
+    justify-content: space-between;
   }
 
   .manual-navigation{
-    position: absolute;
-    width: 75%;
     display: flex;
     justify-content: center;
   }

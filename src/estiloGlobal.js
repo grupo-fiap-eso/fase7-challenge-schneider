@@ -12,10 +12,12 @@ const globalStyle = createGlobalStyle`
     background-color: #3b8d1814;
   }
   nav{
+    display: flex;
     min-height: 65px;
     align-items: center;
-    padding: 15px 100px;
+    padding: 0px 50px;
     font-size: 12px;
+    max-height: 65px;
   }
 
   .navbar{
@@ -40,6 +42,32 @@ const globalStyle = createGlobalStyle`
     border: 1px solid #ffffffbb;
     border-radius: 5px;
     padding: 0 10px 0 35px;
+  }
+  
+  nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 23px 0;
+  }
+
+  nav ul li{
+    margin: 0px 10px;
+  }
+  
+  nav a.link-sair{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    float: right;
+  }
+  
+  nav li a.link{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
   }
 
   nav .busca input::placeholder{
@@ -186,7 +214,7 @@ const globalStyle = createGlobalStyle`
     position: relative;
     background: linear-gradient(to right, #1d5207, #091b01);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 20px 0;
     font-size: 13px;
     line-height: 20px;
   }

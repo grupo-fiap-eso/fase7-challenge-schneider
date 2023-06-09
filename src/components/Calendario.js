@@ -1,4 +1,5 @@
 import { CalendarioStyle } from '../styled'
+import React from "react";
 import Logo from '../images/logo2.png'
 
 const Links = {
@@ -11,6 +12,7 @@ function Calendario() {
         <CalendarioStyle>
             <div class="row">
                 <h1 style={{marginLeft: '35px', marginTop: '15px'}}>Calendário Ambiental - 2023</h1>
+
                 <div className='geral' class="card green">
                     <div style={{backgroundColor: '#00FF7F', borderRadius: '5px', paddingLeft: '10px'}}>
                     <h2>Janeiro - 11</h2>
@@ -160,35 +162,35 @@ function Calendario() {
                 </div>
 
                 <div classname='geral-semana' class="card green">
-                    <div style={{backgroundColor: '	#2E8B57', borderRadius: '5px', paddingLeft: '10px'}}>
+                    <div style={{backgroundColor: '	yellow', borderRadius: '5px', paddingLeft: '10px'}}>
                         <h2>Maio - 31</h2>
                     </div>
                     <h5> Semana Nacional do Meio Ambiente <br></br> <br></br></h5>
                 </div>
 
                 <div classname='geral-semana' class="card green">
-                    <div style={{backgroundColor: '	#2E8B57', borderRadius: '5px', paddingLeft: '10px'}}>
+                    <div style={{backgroundColor: '	yellow', borderRadius: '5px', paddingLeft: '10px'}}>
                         <h2>Junho - 01</h2>
                     </div>
                     <h5> Semana Nacional do Meio Ambiente <br></br> <br></br></h5>
                 </div>
 
                 <div classname='geral-semana' class="card green">
-                    <div style={{backgroundColor: '	#2E8B57', borderRadius: '5px', paddingLeft: '10px'}}>
+                    <div style={{backgroundColor: '	yellow', borderRadius: '5px', paddingLeft: '10px'}}>
                         <h2>Junho - 02</h2>
                     </div>
                     <h5> Semana Nacional do Meio Ambiente <br></br> <br></br></h5>
                 </div>
 
                 <div classname='geral-semana' class="card green">
-                    <div style={{backgroundColor: '	#2E8B57', borderRadius: '5px', paddingLeft: '10px'}}>
+                    <div style={{backgroundColor: '	yellow', borderRadius: '5px', paddingLeft: '10px'}}>
                         <h2>Junho - 03</h2>
                     </div>
                     <h5> Semana Nacional do Meio Ambiente <br></br> <br></br></h5>
                 </div>
 
                 <div classname='geral-semana' class="card green">
-                    <div style={{backgroundColor: '	#2E8B57', borderRadius: '5px', paddingLeft: '10px'}}>
+                    <div style={{backgroundColor: '	yellow', borderRadius: '5px', paddingLeft: '10px'}}>
                         <h2>Junho - 04</h2>
                     </div>
                     <h5> Semana Nacional do Meio Ambiente <br></br> <br></br></h5>

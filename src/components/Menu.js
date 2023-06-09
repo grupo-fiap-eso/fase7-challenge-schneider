@@ -27,10 +27,11 @@ function Menu() {
             <ul style={{ display: 'flex', listStyle: 'none' }}>
                 <li><Link style={link} to='/home'>Home</Link></li>
                 <li><Link style={link} to='/comunidade'>Comunidade</Link></li>
+                <li><Link style={link} to='/trocas_inteligentes'>Trocas Inteligentes</Link></li>
+                <li><Link style={link} to='/desafios'>Desafio do Mês</Link></li>
                 <li><Link style={link} to='/calendario'>Calendário  Ambiental</Link></li>
                 <li><Link style={link} to='/sobre'>Sobre o Projeto</Link></li>
                 <li><Link style={link} to='/'>Sair</Link></li>
-
             </ul>
         </nav>
     )

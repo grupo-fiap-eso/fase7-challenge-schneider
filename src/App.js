@@ -6,6 +6,8 @@ import Cadastro from './components/Cadastro'
 import Comunidade from './components/Comunidade'
 import PostPage from './components/PostPage'
 import Calendario from './components/Calendario'
+import Trocas from './components/trocas_inteligentes'
+import Desafios from './components/desafios'
 
 function App(){
   return(
@@ -16,7 +18,9 @@ function App(){
         <Route path="/home" element={[<Menu/>, <Home/>]}/>
         <Route path="/comunidade" element={[<Menu/>,<Comunidade/>]}/>
         <Route path="/posts/:id" element={[<Menu/>, <PostPage/>]}/>
-        <Route path="/calendario" element={[<Menu/>, <Calendario/>]}/>
+        <Route path="/trocas_inteligentes" element={[<Menu/>, <Trocas/>]}/>
+        <Route path="/desafios" element={[<Menu/>, <Desafios/>]}/>
+        <Route path="/calendario" element={[<Menu/>, <Calendario/>]}/>    
       </Routes>
     </BrowserRouter>
   )

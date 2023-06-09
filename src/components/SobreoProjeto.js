@@ -61,7 +61,7 @@ function SobreoProjeto() {
                   </div>
                   <div class="card-content">
                     <h4 class="nome">Mariana de Moraes Nunes - RM96736 </h4>
-                    <p class="descricao">Calendário, CSS, Trocas Inteligentes,, Pitch...</p>
+                    <p class="descricao">Calendário, CSS, Trocas Inteligentes, Pitch...</p>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@ function SobreoProjeto() {
                   </div>
                   <div class="card-content">
                     <h4 class="nome">Gabriel Clemente de Sousa - RM96652 </h4>
-                    <p class="descricao">Desafio, CSS, Pitch...</p>
+                    <p class="descricao">Jogos, CSS, Pitch, Trocas Inteligentes...</p>
                   </div>
                 </div>
 

@@ -21,6 +21,7 @@ function Menu() {
         <li><Link className='link' to='/desafios'>Desafio do Mês</Link></li>
         <li><Link className='link' to='/calendario'>Calendário  Ambiental</Link></li>
         <li><Link className='link' to='/sobre'>Sobre o Projeto</Link></li>
+        <li><Link className='link' to='/jogos'>Jogos</Link></li>
       </ul>
       <Link className='link-sair' to='/'>Sair</Link>
     </nav>

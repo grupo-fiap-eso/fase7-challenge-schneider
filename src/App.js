@@ -10,7 +10,6 @@ import TrocasInteligentes from './components/TrocasInteligentes'
 import Desafios from './components/DesafiosMes'
 import SobreoProjeto from './components/SobreoProjeto'
 import Footer from './components/Footer'
-import jogos from './components/jogos'
 import Jogos from './components/jogos'
 
 function App(){

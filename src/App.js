@@ -10,6 +10,8 @@ import TrocasInteligentes from './components/TrocasInteligentes'
 import Desafios from './components/DesafiosMes'
 import SobreoProjeto from './components/SobreoProjeto'
 import Footer from './components/Footer'
+import jogos from './components/jogos'
+import Jogos from './components/jogos'
 
 function App(){
   return(
@@ -24,6 +26,7 @@ function App(){
         <Route path="/desafios" element={[<Menu/>, <Desafios/>, <Footer/>]}/>
         <Route path="/calendario" element={[<Menu/>, <Calendario/>, <Footer/>]}/>
         <Route path="/sobre" element={[<Menu/>, <SobreoProjeto/>, <Footer/>]}/>
+        <Route path="/jogos" element={[<Menu/>, <Jogos/>, <Footer/>]}/>
       </Routes>
     </BrowserRouter>
   )

@@ -346,3 +346,24 @@ export const CarouselStyle = styled.div`
     align-items: stretch;
   }
 `
+export const Jogosstyle = styled.div`
+
+.box {
+  background-color: #f1f1f1;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.3s ease-out;
+}
+footer .box {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 10px;
+  color: #a3a5ae;
+  background: #fff;
+  margin-left: 10px;
+}
+`

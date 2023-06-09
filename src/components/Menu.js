@@ -2,35 +2,36 @@ import { Link } from 'react-router-dom'
 import Logo from "../images/logo2.png"
 
 function Menu() {
+    
+    const menu = {
+        background: '#3b8d18',
+        height: '10vh',
+        display: 'flex',
+        margin: '10px',
+        borderRadius: '10px'
+    }
     const link = {
-        display: 'inlineBlock',
+        display: 'flex',
         textDecoration: 'none',
-        padding: '20px',
+        padding: '18px',
         color: '#fff',
-        fontSize: '1.5em'
+        fontSize: '1.3em'
     }
     return (
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src={Logo} alt="" style={{ height: '35px' }} /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <nav style={menu}>
+            <a class="navbar-brand logo" href="#"><img src={Logo} alt="" style={{ height: '35px' }} /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <Link style={link} to='/home'>Home</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link style={link} to='/comunidade'>Comunidade</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link style={link} to='/calendario'>Calendário Ambiental</Link>
-                    </li>
-                    <li class="nav-item">
-                        <Link style={link} to='/'>Sair</Link>
-                    </li>
-                </ul>
-            </div>
+            <ul style={{ display: 'flex', listStyle: 'none' }}>
+                <li><Link style={link} to='/home'>Home</Link></li>
+                <li><Link style={link} to='/comunidade'>Comunidade</Link></li>
+                <li><Link style={link} to='/calendario'>Calendário  Ambiental</Link></li>
+                <li><Link style={link} to='/sobre'>Sobre o Projeto</Link></li>
+                <li><Link style={link} to='/'>Sair</Link></li>
+
+            </ul>
         </nav>
     )
 }

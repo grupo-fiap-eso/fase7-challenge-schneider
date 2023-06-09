@@ -1,14 +1,21 @@
 import PostsResumo from "./posts/PostsResumo";
+import ImgCalendario from "../images/imgHome.jpg"
+import SemanaMB from "../images/semanaMB.png"
 import Logo from "../images/logo2.png"
+
+const links = {
+    textDecoration: 'none',
+    color: '#fff'
+}
 
 function Home() {
     return (
         <div>
-        <div class=" p-md-5 mb-4 rounded primeira-secao">
-            <div class="col-md-6 px-5">
+        <div class="mt-4 p-md-5 rounded primeira-secao">
+            <div class="col-md-6 p-5">
                 <h1 class="display-4 fst-italic">
                     <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Título</font>
+                        <font style={{ verticalAlign: 'inherit' }}>Vídeo Pitch</font>
                     </font>
                 </h1>
                 <p class="lead my-3">
@@ -19,7 +26,7 @@ function Home() {
                 </p>
                 <p class="lead mb-0"><a href="#" class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
+                        <font style={{ verticalAlign: 'inherit' }}>Assista ao vídeo!</font>
                     </font>
                 </a></p>
             </div>
@@ -31,39 +38,36 @@ function Home() {
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Economia</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Destaque do mês</font>
                             </font>
                         </strong>
                         <h3 class="mb-0">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Postagem em destaque</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Dia Mundial dos Oceanos</font>
                             </font>
                         </h3>
                         <div class="mb-1 text-body-secondary">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>25 de Maio</font>
+                                <font style={{ verticalAlign: 'inherit' }}>8 de Junho</font>
                             </font>
                         </div>
                         <p class="card-text mb-auto">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Este é um cartão mais amplo com texto de apoio abaixo como uma
-                                    entrada natural para conteúdo adicional.</font>
+                                <font style={{ verticalAlign: 'inherit' }}>"Essa é uma data que incentiva a socieadade a refletir sobre a importância da conservação das águas marinhas do planeta."
+                                    Saiba como você pode ajudar a salvar a vida no oceano.</font>
                             </font>
                         </p>
-                        <a href="#" class="stretched-link">
+                        <a href="https://www.infraestruturameioambiente.sp.gov.br/educacaoambiental/2022/06/8-de-junho-dia-mundial-dos-oceanos/" class="stretched-link">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Continue lendo</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Clique aqui</font>
                             </font>
                         </a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                            aria-label="Espaço reservado: Miniatura" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                    </div>
+                            <img class="bd-placeholder-img" width="350" height="300" role="img"
+                                focusable="false" src={ImgCalendario}>
+                            </img>
+                        </div>
                 </div>
             </div>
             <div class="col-md-6">
@@ -71,39 +75,37 @@ function Home() {
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-success">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Projeto</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Destaque do semestre</font>
                             </font>
                         </strong>
                         <h3 class="mb-0">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Título da postagem</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Semana Nacional do Meio Ambiente</font>
                             </font>
                         </h3>
                         <div class="mb-1 text-body-secondary">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>11 de novembro</font>
+                                <font style={{ verticalAlign: 'inherit' }}>31 de Maio - 04 de Junho</font>
                             </font>
                         </div>
                         <p class="mb-auto">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>Este é um cartão mais amplo com texto de apoio abaixo como uma
-                                    entrada natural para conteúdo adicional.</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Já pensou em fazer parte da restauração florestal no Brasil? 
+                                    Saiba mais sobre, como colaborar com uma das soluções mais eficientes para minimizar as mudanças climáticas.</font>
                             </font>
                         </p>
-                        <a href="#" class="stretched-link">
+                        <a href="https://www.tnc.org.br/o-que-fazemos/nossas-iniciativas/restaura-brasil/?gclid=CjwKCAjwyeujBhA5EiwA5WD7_R7H3B82LBuKTomO102fydLNnOVAmbOavxrRmNUAm4jZu3LpShiMMBoCWrEQAvD_BwE" class="stretched-link">
                             <font style={{ verticalAlign: 'inherit' }}>
-                                <font style={{ verticalAlign: 'inherit' }}>continue lendo</font>
+                                <font style={{ verticalAlign: 'inherit' }}>Saiba Mais</font>
                             </font>
                         </a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-                            aria-label="Espaço reservado: Miniatura" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                    </div>
+                            <img class="bd-placeholder-img" width="300" height="300" role="img" 
+                            focusable="false" src={SemanaMB}>
+                               
+                            </img>
+                        </div>
                 </div>
             </div>
         </div>
@@ -111,30 +113,7 @@ function Home() {
         <PostsResumo />
 
         <div class="row">
-            <hr></hr>
-            <div class=" p-md-5 home-sobre-nos">
-                <div class="col-md-6 px-5">
-                    <h1 class="display-4 fst-italic">
-                        <font style={{ verticalAlign: 'inherit' }}>
-                            <font style={{ verticalAlign: 'inherit' }}>Sobre o projeto</font>
-                        </font>
-                    </h1>
-                    <p class="lead my-3">
-                        <font style={{ verticalAlign: 'inherit' }}>
-                            <font style={{ verticalAlign: 'inherit' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                                eveniet velit, delectus fuga molestiae provident eius inventore explicabo? Ex, ullam.</font>
-                        </font>
-                    </p>
-                    <p class="lead mb-0"><a href="#" class="link1">
-                        <font style={{ verticalAlign: 'inherit' }}>
-                            <font style={{ verticalAlign: 'inherit' }}>Continue lendo...</font>
-                        </font>
-                    </a></p>
-                </div>
-            </div>
-
-
-
+            
             <div class="comunidade">
 
                 <div class="text-center titulo-comunidade">
@@ -210,21 +189,21 @@ function Home() {
 
                 </div>
                 <div class="col">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Comunidade</a></li>
-                    </ul>
+                <h4><a href="/home" style={links}>Home</a></h4>
+                        <ul>
+                            <li><a href="/comunidade">Comunidade</a></li>
+                            <li><a href="/calendario">Calendário Ambiental</a></li>
+                        </ul>
 
-                </div>
-                <div class="col">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Comunidade</a></li>
-                    </ul>
+                    </div>
+                    <div class="col">
+                        <h4><a>Cadastro</a></h4>
+                        <ul>
+                            <li><a href="/">Sair</a></li>
+                            <li><a href="/cadastro">Cadastrar</a></li>
+                        </ul>
 
-                </div>
+                    </div>
 
             </div>
         </footer>

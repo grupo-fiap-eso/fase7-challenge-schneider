@@ -5,6 +5,10 @@ import EsgImage from "../images/esg.jpg"
 import TectonologiaSustentavelImage from "../images/img-tecnologia-na-sustentabilidade.jpg"
 import SmartgridImage from "../images/smartgrid.jpeg"
 
+const Links = {
+    textDecoration: 'none',
+    color: '#fff'
+}
 function Comunidade() { 
     
     const [cliente, setCliente] = useState({
@@ -221,37 +225,37 @@ function Comunidade() {
 
 
         <footer>
-            <div class="row">
-                <div class="col">
-                    <img src={Logo} alt="logo" class="logo-footer" />
-                    <div class="icons-footer">
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-solid fa-envelope"></i>
+                <div class="row">
+                    <div class="col">
+                        <img src={Logo} alt="logo" class="logo-footer" />
+                        <div class="icons-footer">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-solid fa-envelope"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="col" >
+                        <h4><a href="/home" style={Links}>Home</a></h4>
+                        <ul>
+                            <li><a href="/comunidade">Comunidade</a></li>
+                            <li><a href="/calendario">Calendário Ambiental</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h4><a>Cadastro</a></h4>
+                        <ul>
+                            <li><a href="/">Sair</a></li>
+                            <li><a href="/cadastro">Cadastrar</a></li>
+                        </ul>
 
                     </div>
 
                 </div>
-                <div class="col">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Comunidade</a></li>
-                    </ul>
-
-                </div>
-                <div class="col">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="">Forum</a></li>
-                        <li><a href="">Comunidade</a></li>
-                    </ul>
-
-                </div>
-
-            </div>
-        </footer>
+            </footer>
     
 </div>
     )

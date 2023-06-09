@@ -217,6 +217,7 @@ const globalStyle = createGlobalStyle`
     padding: 20px 0;
     font-size: 13px;
     line-height: 20px;
+    margin-top: 15px;
   }
 
   footer .row{

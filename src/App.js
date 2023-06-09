@@ -7,7 +7,7 @@ import Comunidade from './components/Comunidade'
 import PostPage from './components/PostPage'
 import Calendario from './components/Calendario'
 import TrocasInteligentes from './components/TrocasInteligentes'
-import Desafios from './components/desafios'
+import Desafios from './components/DesafiosMes'
 
 function App(){
   return(

@@ -24,6 +24,12 @@ function Menu() {
                         <Link style={link} to='/comunidade'>Comunidade</Link>
                     </li>
                     <li class="nav-item">
+                        <Link style={link} to='/trocas_inteligentes'>Trocas Inteligentes</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link style={link} to='/desafios'>Desafio do Mês</Link>
+                    </li>
+                    <li class="nav-item">
                         <Link style={link} to='/calendario'>Calendário Ambiental</Link>
                     </li>
                     <li class="nav-item">

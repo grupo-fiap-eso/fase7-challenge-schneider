@@ -12,13 +12,8 @@ function Home() {
                         <font style={{ verticalAlign: 'inherit' }}>Vídeo Pitch</font>
                     </font>
                 </h1>
-                <p class="lead my-3">
-                    <font style={{ verticalAlign: 'inherit' }}>
-                        <font style={{ verticalAlign: 'inherit' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-                            eveniet velit, delectus fuga molestiae provident eius inventore explicabo? Ex, ullam.</font>
-                    </font>
-                </p>
-                <p class="lead mb-0"><a href="#" class="link1">
+                
+                <p class="lead mb-0"><a href="https://youtu.be/toO1TIBD8f8" target='blank' class="link1">
                     <font style={{ verticalAlign: 'inherit' }}>
                         <font style={{ verticalAlign: 'inherit' }}>Assista ao vídeo!</font>
                     </font>
